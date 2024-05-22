@@ -11,7 +11,8 @@
 ### Training and optimization
 - Quick and dirty method: use pre-trained sklearn architecture to get results
 - Own model: CNN with Tensorflow Keras. Train on one computer and save the model for the others to work with. 
-- Comparison between pre-build architecture vs our own model 
+- Comparison between pre-build architecture vs our own model
+- Rapids: compare time between with/without gpu computation
 - Hyperparameter optimization: kernels, "stepsize", structure of the network
 - Clustering of latent space: investigation of the space. When does the network start to recognize noses (angry noses from happy noses)? 
 - Final demonstration: potentially in app
